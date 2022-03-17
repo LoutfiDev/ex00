@@ -1,1 +1,34 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* { margin: 0px; padding: 0px; -webkit-box-sizing: border-box; box-sizing: border-box; border: 0; vertical-align: baseline; }
+
+body { overflow-x: hidden; background-color: #000; padding-top: 99px; }
+
+/*=== Import Fonts ===*/
+@font-face { font-family: "Roboto Light"; src: url("../fonts/Roboto/Roboto-Light.ttf") format("truetype"); }
+
+@font-face { font-family: "Roboto Regular"; src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype"); }
+
+@font-face { font-family: "Roboto Medium"; src: url("../fonts/Roboto/Roboto-Medium.ttf") format("truetype"); }
+
+@font-face { font-family: "Roboto SemiBold"; src: url("../fonts/Roboto/Roboto-Semibold.ttf") format("truetype"); }
+
+@font-face { font-family: "Roboto Bold"; src: url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype"); }
+
+@font-face { font-family: "DidactGothic Light"; src: url("../fonts/DidactGothic/DidactGothic-Light.ttf") format("truetype"); }
+
+@font-face { font-family: "DidactGothic Regular"; src: url("../fonts/DidactGothic/DidactGothic-Regular.ttf") format("truetype"); }
+
+@font-face { font-family: "DidactGothic Medium"; src: url("../fonts/DidactGothic/DidactGothic-Medium.ttf") format("truetype"); }
+
+@font-face { font-family: "DidactGothic SemiBold"; src: url("../fonts/DidactGothic/DidactGothic-Semibold.ttf") format("truetype"); }
+
+@font-face { font-family: "DidactGothic Bold"; src: url("../fonts/DidactGothic/DidactGothic-Bold.ttf") format("truetype"); }
+
+/*=== Typography Styling ===*/
+body { font-family: "Roboto Regular"; font-size: 1.3rem; color: #fff; font-weight: 400; line-height: 1rem; }
+
+nav { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 100%; max-width: 1440px; height: 99px; top: 0; left: 0; position: fixed; z-index: 10; border: solid 1px #fff; }
+
+section { display: none; }
+
+.container { display: none; }
+/*# sourceMappingURL=style.css.map */

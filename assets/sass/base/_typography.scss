@@ -13,14 +13,9 @@
 
 /*=== Typography Styling ===*/
 body {
-	// color: $dark-1;
-	// font-size: $size-small;
-	// font-family: $font-primary-regular, sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-stretch: normal;
-	letter-spacing: normal;
-	// line-height: 1.5;
+
+	@include font-source-sans($font-primary-regular,1.3rem,$color-secondary,400,1rem)
+	
 }
 
 h1 {
@@ -44,41 +39,9 @@ a {
 }
 
 p {
-	 @include font-source-sans($font-primary-regular,1.3rem,$color-secondary,400,1rem)
-	// font-source-sans($font: false, $size: false, $color: false, $weight: false, $lh: false)
+	
 }
 
 label {
 }
 
-// How typogrraphy should looks like on mobile version
-/*@include for-size(phone-only) {
-	h1 {
-		// font-size: ;
-		// line-height: ;
-	}
-	h2 {
-		// font-size: ;
-		// line-height: ;
-	}
-	h3 {
-		// font-size: ;
-		// line-height: ;
-	}
-	h4 {
-		// font-size: ;
-		// line-height: ;
-	}
-	h5 {
-		// font-size: ;
-		// line-height: ;
-	}
-	h6 {
-		// font-size: ;
-		// line-height: ;
-	}
-	p {
-		// font-size: ;
-		// line-height: ;
-	}
-}*/
