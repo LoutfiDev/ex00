@@ -1,3 +1,48 @@
 .container{
-    display: none;
+    @include flex(space-between,center);
+    width: 100%;
+    max-width:1440px;
+    height: auto;
+    padding: 0;
+
+    .content-basic{
+        @include flex(center,center);
+        border: solid 1px $color-secondary;
+    }
+    
+    .content1{
+        @extend .content-basic;
+        width: 60%;
+        max-width: 809.01px;
+        height: 431.86px;
+    }
+    .content2{
+        @extend .content-basic;
+        width: 37%;
+        max-width: 510.85px;
+        height: 377px;
+    }
+}
+
+@media(max-width:430px){
+    .container{
+        @include flex(center,center);
+        flex-direction: column-reverse;  
+         
+        .content-basic-mobile{
+            @include flex(center,center);
+            width: 96%;
+            height: 430.52px;
+            border: solid 1px $color-secondary;
+        }
+    
+        .content1 ,.content2{
+            @extend .content-basic-mobile;       
+        }
+    
+        .content1{
+            margin-top: 20px;
+        }    
+    }
+    
 }

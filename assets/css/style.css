@@ -32,5 +32,15 @@ section { width: 100%; max-width: 1440px; height: 600px; border: solid 1px #fff;
 
 @media (max-width: 430px) { section { height: auto; padding: 40px 15px; } }
 
-.container { display: none; }
+.container { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 100%; max-width: 1440px; height: auto; padding: 0; }
+
+.container .content-basic, .container .content1, .container .content2 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; border: solid 1px #fff; }
+
+.container .content1 { width: 60%; max-width: 809.01px; height: 431.86px; }
+
+.container .content2 { width: 37%; max-width: 510.85px; height: 377px; }
+
+@media (max-width: 430px) { .container { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
+  .container .content-basic-mobile, .container .content1, .container .content2 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 96%; height: 430.52px; border: solid 1px #fff; }
+  .container .content1 { margin-top: 20px; } }
 /*# sourceMappingURL=style.css.map */
