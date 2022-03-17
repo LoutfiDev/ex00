@@ -6,7 +6,12 @@ section{
     padding:84px 45px;
 }
 
-
+@media(max-width:500px){
+    section{
+        height:auto;
+        padding: 60px 30px;
+    }
+}
 
 @media(max-width:430px){
     section{
