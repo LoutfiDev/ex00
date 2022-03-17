@@ -28,7 +28,6 @@
     .container{
         @include flex(center,center);
         flex-direction: column-reverse;  
-        padding: 0;
 
         .content-basic-mobile{
             @include flex(center,center);
