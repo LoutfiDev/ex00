@@ -2,10 +2,11 @@ nav{
     @include flex(center,center);
     width: 100%;
     max-width: 1440px;
-    height: 99px;
+    height: 100px;
     top: 0;
     left: 0;
     position: fixed;
     z-index: 10;
+    background-color: $color-primary;
     border: solid 1px $color-secondary;
 }
