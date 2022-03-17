@@ -1,0 +1,84 @@
+/*=== Import Fonts ===*/
+@include font-face($font-primary-light, $font-primary-light-path);
+@include font-face($font-primary-regular, $font-primary-regular-path);
+@include font-face($font-primary-medium, $font-primary-medium-path);
+@include font-face($font-primary-semibold, $font-primary-semibold-path);
+@include font-face($font-primary-bold, $font-primary-bold-path);
+
+@include font-face($font-secondary-light, $font-secondary-light-path);
+@include font-face($font-secondary-regular, $font-secondary-regular-path);
+@include font-face($font-secondary-medium, $font-secondary-medium-path);
+@include font-face($font-secondary-semibold, $font-secondary-semibold-path);
+@include font-face($font-secondary-bold, $font-secondary-bold-path);
+
+/*=== Typography Styling ===*/
+body {
+	// color: $dark-1;
+	// font-size: $size-small;
+	// font-family: $font-primary-regular, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: normal;
+	// line-height: 1.5;
+}
+
+h1 {
+	// @include font-source-sans($font-primary-bold, $font-size-xl, $color-primary-1, bold, line-height);
+}
+h2 {
+}
+h3 {
+}
+h4 {
+}
+h5 {
+}
+h6 {
+}
+
+button {
+}
+
+a {
+}
+
+p {
+	 @include font-source-sans($font-primary-regular,1.3rem,$color-secondary,400,1rem)
+	// font-source-sans($font: false, $size: false, $color: false, $weight: false, $lh: false)
+}
+
+label {
+}
+
+// How typogrraphy should looks like on mobile version
+/*@include for-size(phone-only) {
+	h1 {
+		// font-size: ;
+		// line-height: ;
+	}
+	h2 {
+		// font-size: ;
+		// line-height: ;
+	}
+	h3 {
+		// font-size: ;
+		// line-height: ;
+	}
+	h4 {
+		// font-size: ;
+		// line-height: ;
+	}
+	h5 {
+		// font-size: ;
+		// line-height: ;
+	}
+	h6 {
+		// font-size: ;
+		// line-height: ;
+	}
+	p {
+		// font-size: ;
+		// line-height: ;
+	}
+}*/
