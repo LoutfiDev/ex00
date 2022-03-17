@@ -13,26 +13,27 @@
     .content1{
         @extend .content-basic;
         width: 60%;
-        max-width: 809.01px;
-        height: 431.86px;
+        max-width: 800px;
+        height: 400px;
     }
     .content2{
         @extend .content-basic;
         width: 37%;
-        max-width: 510.85px;
-        height: 377px;
+        max-width: 500px;
+        height: 350px;
     }
 }
 
-@media(max-width:430px){
+@media(max-width:500px){
     .container{
         @include flex(center,center);
         flex-direction: column-reverse;  
-         
+        padding: 0;
+
         .content-basic-mobile{
             @include flex(center,center);
-            width: 96%;
-            height: 430.52px;
+            width: 100%;
+            height: 430px;
             border: solid 1px $color-secondary;
         }
     

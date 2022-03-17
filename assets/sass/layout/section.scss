@@ -2,9 +2,11 @@ section{
     width: 100%;
     max-width: 1440px;
     height: 600px;
-    border: solid 1px $color-secondary;
+    border: solid 1px white;
     padding:84px 45px;
 }
+
+
 
 @media(max-width:430px){
     section{
