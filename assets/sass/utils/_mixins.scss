@@ -1,0 +1,34 @@
+// Flexbox
+@mixin flex($justify, $align) {
+	display: flex;
+	justify-content: $justify;
+	align-items: $align;
+}
+
+
+// Import fonts
+@mixin font-face($family, $ttf-path) {
+	@font-face {
+		font-family: $family;
+		src: url($ttf-path) format("truetype");
+	}
+}
+
+// Set Font
+@mixin font-source-sans($font: false, $size: false, $color: false, $weight: false, $lh: false) {
+	@if $font {
+		font-family: $font;
+	}
+	@if $size {
+		font-size: $size;
+	}
+	@if $color {
+		color: $color;
+	}
+	@if $weight {
+		font-weight: $weight;
+	}
+	@if $lh {
+		line-height: $lh;
+	}
+}
